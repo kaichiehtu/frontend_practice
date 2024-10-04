@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+    <div class="box">1box元素
+        <div class="wrapper">_wrapper元素
+            <div class="wrapper box">_wrapper元素box元素</div>
+        </div>
+        <div class="box">_box元素
+            <div class="wrapper box">_wrapper元素box元素</div>
+        </div>
+    </div>
+
+    <div class="wrapper">2wrapper元素
+        <div class="wrapper">_wrapper元素
+            <div class="wrapper box">_wrapper元素box元素</div>
+        </div>
+        <div class="box">_box元素
+            <div class="wrapper box">_wrapper元素box元素</div>
+        </div>
+    </div>
+
+    <div class="wrapper box">3wrapper元素box元素
+        <div class="wrapper box">_wrapper元素box元素
+            <div class="wrapper box">_wrapper元素box元素</div>
+        </div>
+    </div>
+    <div class="style text">
+        <p>div{
+            border: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+           position: relative;
+          
+          }</p>
+        
+          <p class="color lightblue">.box:hover .box {
+            background-color: lightblue; /* 當滑鼠懸停在 .box 元素上時，背景顏色變為淺藍色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        <p class="color lightblue">.box:hover {
+            background-color: lightblue; /* 當滑鼠懸停在 .box 元素上時，背景顏色變為淺藍色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        <p class="color lightblue">.wrapper:hover .wrapper {
+            background-color: lightblue; /* 當滑鼠懸停在 .wrapper 元素上時，背景顏色變為淺藍色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        <p class="color lightblue">.wrapper:hover {
+            background-color: lightblue; /* 當滑鼠懸停在 .wrapper 元素上時，背景顏色變為淺藍色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        <p class="color lightblue">.wrapper:hover.box {
+            background-color: lightblue; /* 當滑鼠懸停在 .wrapper 且同時有 .box 類的元素上時，背景顏色變為淺藍色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        <p class="color red">.box:hover.wrapper {
+            background-color: rgb(194, 63, 63); /* 當滑鼠懸停在 .box 元素上時，背景顏色變為紅色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        <p class="color green">.box:hover .wrapper {
+            background-color: rgb(19, 228, 82); /* 當滑鼠懸停在 .box 元素上時，.wrapper 的背景顏色變為綠色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        <p class="color yellow">.wrapper:hover .box {
+            background-color: rgb(197, 228, 22); /* 當滑鼠懸停在 .wrapper 元素上時，.box 的背景顏色變為黃綠色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        <p class="color green">.box:hover .wrapper {
+            background-color: rgb(19, 228, 82); /* 當滑鼠懸停在 .box 元素上時，.wrapper 的背景顏色變為綠色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        <p class="color blue">.box.wrapper:hover {
+            background-color: rgb(69, 171, 230); /* 當滑鼠懸停在同時擁有 .box 和 .wrapper 類的元素上時，背景顏色變為藍色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        <p class="color red">.box:hover.wrapper {
+            background-color: rgb(194, 63, 63); /* 當滑鼠懸停在 .box 元素上時，背景顏色變為紅色 */
+            color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+        </p>
+        
+        
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

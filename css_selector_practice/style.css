@@ -1,0 +1,100 @@
+div{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+ position: relative;
+
+}
+.wrap{
+  border: 2px solid black;
+  height: auto;
+  width: auto;
+}
+.style.text{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: 
+  translate(-50%, -50%);
+
+}
+.box:hover .box {
+  background-color: lightblue; /* 當滑鼠懸停在 .box 元素上時，背景顏色變為淺藍色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.box:hover {
+  background-color: lightblue; /* 當滑鼠懸停在 .box 元素上時，背景顏色變為淺藍色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.wrapper:hover .wrapper {
+  background-color: lightblue; /* 當滑鼠懸停在 .wrapper 元素上時，背景顏色變為淺藍色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.wrapper:hover {
+  background-color: lightblue; /* 當滑鼠懸停在 .wrapper 元素上時，背景顏色變為淺藍色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.wrapper:hover.box {
+  background-color: lightblue; /* 當滑鼠懸停在 .wrapper 且同時有 .box 類的元素上時，背景顏色變為淺藍色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.box:hover.wrapper {
+  background-color: rgb(194, 63, 63); /* 當滑鼠懸停在 .box 元素上時，背景顏色變為紅色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.box:hover .wrapper {
+  background-color: rgb(19, 228, 82); /* 當滑鼠懸停在 .box 元素上時，.wrapper 的背景顏色變為綠色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.wrapper:hover .box {
+  background-color: rgb(197, 228, 22); /* 當滑鼠懸停在 .wrapper 元素上時，.box 的背景顏色變為黃綠色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.box:hover .wrapper {
+  background-color: rgb(19, 228, 82); /* 當滑鼠懸停在 .box 元素上時，.wrapper 的背景顏色變為綠色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.box.wrapper:hover {
+  background-color: rgb(69, 171, 230); /* 當滑鼠懸停在同時擁有 .box 和 .wrapper 類的元素上時，背景顏色變為藍色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.box:hover.wrapper {
+  background-color: rgb(194, 63, 63); /* 當滑鼠懸停在 .box 元素上時，背景顏色變為紅色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+
+.red:hover{
+    background-color: rgb(194, 63, 63); /* 當滑鼠懸停時，背景顏色變為淺藍色 */
+    color: rgb(17, 17, 17); /* 文字顏色變為白色 */
+  }
+.lightblue:hover {
+    background-color: lightblue; /* 當滑鼠懸停在 .wrapper 且同時有 .box 類的元素上時，背景顏色變為淺藍色 */
+    color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+.green:hover{
+  background-color: rgb(19, 228, 82); /* 當滑鼠懸停在 .box 元素上時，.wrapper 的背景顏色變為綠色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+.yellow:hover{
+  background-color: rgb(197, 228, 22); /* 當滑鼠懸停在 .wrapper 元素上時，.box 的背景顏色變為黃綠色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
+.blue:hover{
+  background-color: rgb(69, 171, 230); /* 當滑鼠懸停在同時擁有 .box 和 .wrapper 類的元素上時，背景顏色變為藍色 */
+  color: rgb(17, 17, 17); /* 文字顏色變為深色 (黑色) */
+}
